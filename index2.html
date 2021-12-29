@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Box</title>
+
+    <link rel="stylesheet" href="lightbox.min.css">
+    <link rel="stylesheet" href="lightstyle.css">
+</head>
+<body>
+        <h1>Image Galley</h1>
+
+        <div class="gallery">
+           <a href="image/img1big.jpg" data-title="this is cake" data-lightbox="mygallery"> <img src="image/img1.jpg" alt=""></a>
+            <a href="image/img3big.jpg" data-lightbox="mygallery"><img src="image/img2.jpg" alt=""></a>
+            <a href="image/img3big.jpg" data-lightbox="mygallery"><img src="image/img3.jpg" alt=""></a>
+            <a href="image/img4big.jpg" data-lightbox="mygallery"><img src="image/img4.jpg" alt=""></a>
+           <a href="image/img5big.jpg" data-lightbox="mygallery"> <img src="image/img5.jpg" alt=""></a>
+            <a href="image/img6big.jpg" data-lightbox="mygallery"><img src="image/img6.jpg" alt=""></a>
+            <a href="image/menu3big.jpg" data-lightbox="mygallery"><img src="image/menu3.jpg" alt=""></a>
+            <a href="image/menu4big.jpg" data-lightbox="mygallery"><img src="image/menu4.jpg" alt=""></a>
+        </div>
+
+
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script>
+            lightbox.option({
+              'resizeDuration': 100,
+              'wrapAround': false,
+            })
+        </script>
+</body>
+</html>
